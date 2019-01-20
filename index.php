@@ -25,7 +25,7 @@ foreach($arr_codes as $code){
 }
 ?>
 	</select>
-	<button onclick="$('.answer').load('/convert.php?code=' + $('select[name=&quot;code&quot;]').val() + '&amount=' + $('input[name=&quot;amount&quot;]').val());">Convert</button>
+	<button onclick="$('.answer').load('./convert.php?code=' + $('select[name=&quot;code&quot;]').val() + '&amount=' + $('input[name=&quot;amount&quot;]').val());">Convert</button>
 	</div>
 	<p class="answer"></p>
 	</body>
